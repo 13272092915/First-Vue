@@ -1,0 +1,15 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "jsonserver",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch fenlei.json",
+    "json:server:remote":"json-server http://jsonplaceholder.typicode.com/fenlei"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}
